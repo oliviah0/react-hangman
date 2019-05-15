@@ -84,7 +84,7 @@ class Hangman extends Component {
     );
 
     let inactiveGame = (
-      <p>YOU LOSE!!!! <br />
+      <p>YOU LOSE <br />
         Correct answer was: {this.state.answer}
       </p>
     );
